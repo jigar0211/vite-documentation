@@ -27,15 +27,15 @@ The following command will run a Vite-bootstrapped application:
 
 With NPM:
 ```
-$ npm create vite@latest
+npm create vite@latest
 ```
 With Yarn:
 ```
-$ yarn create vite
+yarn create vite
 ```
 With PNPM:
 ```
-$ pnpm create vite
+pnpm create vite
 ```
 Then follow the prompts!
 
@@ -86,3 +86,27 @@ If the project uses main as the default branch, suffix the project repo with #ma
 ```
 npx degit user/project#main my-project
 ```
+
+# Creating a TypeScript React Application with Vite
+### **# Step: 1** Create Simple Vite Project
+With NPM:
+```
+npm create vite@latest
+```
+### **# Step: 2** Select a framework `React`
+![Screenshot from 2023-04-11 17-09-12](https://user-images.githubusercontent.com/122254160/231153424-55df09e7-99b1-4dbe-8bdb-43c858ab63c3.png)
+
+### **# Step: 3** Select a variant `TypeScript`
+![Screenshot from 2023-04-11 17-09-22](https://user-images.githubusercontent.com/122254160/231153667-dcf1ad87-979f-4a36-ae6f-5bafd43075ff.png)
+
+### **# Step: 4** To installs all the required dependencies for the project to run write this command
+```
+npm i
+```
+>`npm i` is a command used in `Node.js` and it is short for `npm install`.
+
+### **# Step: 5** To compile your React code and serve it on a local web server run this command
+```
+npm run dev
+```
+>Specifically, npm run dev runs the dev script defined in the package.json file, which typically starts the Vite development server. By default, this server runs on http://localhost:3000.
